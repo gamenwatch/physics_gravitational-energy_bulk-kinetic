@@ -273,6 +273,22 @@ public class MultiQuiz extends javax.swing.JFrame {
             questionDisplay = "Done";
             //test.setText(questionDisplay);
             questionOutputTextArea.setText("Click Done Please");
+            
+            //randomized element
+            int randomPhrase;
+            randomPhrase = (int)Math.round(Math.random()*2+1);
+            switch (randomPhrase) {
+                case 1:
+                    feedbackLabel.setText("A true vexiologist in the making");
+                    break;
+                case 2:
+                    feedbackLabel.setText("Vonderbar!");
+                    break;
+                case 3:
+                    feedbackLabel.setText("Planted among the stars.");
+                    break;
+                
+            }
         }
         else {
             questionIncorrect = questionIncorrect + 1;
@@ -281,6 +297,22 @@ public class MultiQuiz extends javax.swing.JFrame {
             questionDisplay = "Done";
             //test.setText(questionDisplay);
             questionOutputTextArea.setText("Click Done Please");
+            
+            //randomized element
+            int randomPhrase;
+            randomPhrase = (int)Math.round(Math.random()*2+1);
+            switch (randomPhrase) {
+                case 1:
+                    feedbackLabel.setText("Stay on target commander.");
+                    break;
+                case 2:
+                    feedbackLabel.setText("Blown away in the strong winds?");
+                    break;
+                case 3:
+                    feedbackLabel.setText("Red, green, white. How original!");
+                    break;
+                
+            }
         }
     }//GEN-LAST:event_confirmButtonFiveActionPerformed
 
@@ -293,6 +325,9 @@ public class MultiQuiz extends javax.swing.JFrame {
         percCorrect = percCorrect / 100 ;
         
         percentageCorrectOutputLabel.setText(""+percCorrect+"%");
+        
+        //clear comment
+        feedbackLabel.setText("");
     }//GEN-LAST:event_confirmButtonDoneActionPerformed
 
     private void startButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_startButtonActionPerformed
@@ -322,6 +357,23 @@ public class MultiQuiz extends javax.swing.JFrame {
             //test.setText(questionDisplay);
             questionOutputTextArea.setText(quTwoText);
             
+            //randomized element
+            int randomPhrase;
+            randomPhrase = (int)Math.round(Math.random()*2+1);
+            switch (randomPhrase) {
+                case 1:
+                    feedbackLabel.setText("A true vexiologist in the making");
+                    break;
+                case 2:
+                    feedbackLabel.setText("Vonderbar!");
+                    break;
+                case 3:
+                    feedbackLabel.setText("Planted among the stars.");
+                    break;
+                
+            }
+                
+    
         }
         else {
             questionIncorrect = questionIncorrect + 1;
@@ -330,6 +382,22 @@ public class MultiQuiz extends javax.swing.JFrame {
             questionDisplay = "Two";
             //test.setText(questionDisplay);
             questionOutputTextArea.setText(quTwoText);
+            
+            //randomized element
+            int randomPhrase;
+            randomPhrase = (int)Math.round(Math.random()*2+1);
+            switch (randomPhrase) {
+                case 1:
+                    feedbackLabel.setText("Stay on target commander.");
+                    break;
+                case 2:
+                    feedbackLabel.setText("Blown away in the strong winds?");
+                    break;
+                case 3:
+                    feedbackLabel.setText("Red, green, white. How original!");
+                    break;
+                
+            }
         }
 
     }//GEN-LAST:event_confirmButtonOneActionPerformed
@@ -345,6 +413,22 @@ public class MultiQuiz extends javax.swing.JFrame {
             questionDisplay = "Three";
             //test.setText(questionDisplay);
             questionOutputTextArea.setText(quThreeText);
+            
+            //randomized element
+            int randomPhrase;
+            randomPhrase = (int)Math.round(Math.random()*2+1);
+            switch (randomPhrase) {
+                case 1:
+                    feedbackLabel.setText("A true vexiologist in the making");
+                    break;
+                case 2:
+                    feedbackLabel.setText("Vonderbar!");
+                    break;
+                case 3:
+                    feedbackLabel.setText("Planted among the stars.");
+                    break;
+                
+            }
         }
         else {
             questionIncorrect = questionIncorrect + 1;
@@ -353,6 +437,22 @@ public class MultiQuiz extends javax.swing.JFrame {
             questionDisplay = "Three";
             //test.setText(questionDisplay);
             questionOutputTextArea.setText(quThreeText);
+            
+            //randomized element
+            int randomPhrase;
+            randomPhrase = (int)Math.round(Math.random()*2+1);
+            switch (randomPhrase) {
+                case 1:
+                    feedbackLabel.setText("Stay on target commander.");
+                    break;
+                case 2:
+                    feedbackLabel.setText("Blown away in the strong winds?");
+                    break;
+                case 3:
+                    feedbackLabel.setText("Red, green, white. How original!");
+                    break;
+                
+            }
         }
 
     }//GEN-LAST:event_confirmButtonTwoActionPerformed
@@ -368,6 +468,22 @@ public class MultiQuiz extends javax.swing.JFrame {
             questionDisplay = "Four";
             //test.setText(questionDisplay);
             questionOutputTextArea.setText(quFourText);
+            
+            //randomized element
+            int randomPhrase;
+            randomPhrase = (int)Math.round(Math.random()*2+1);
+            switch (randomPhrase) {
+                case 1:
+                    feedbackLabel.setText("A true vexiologist in the making");
+                    break;
+                case 2:
+                    feedbackLabel.setText("Vonderbar!");
+                    break;
+                case 3:
+                    feedbackLabel.setText("Planted among the stars.");
+                    break;
+                
+            }
         }
         else {
             questionIncorrect = questionIncorrect + 1;
@@ -376,6 +492,22 @@ public class MultiQuiz extends javax.swing.JFrame {
             questionDisplay = "Four";
             //test.setText(questionDisplay);
             questionOutputTextArea.setText(quFourText);
+            
+            //randomized element
+            int randomPhrase;
+            randomPhrase = (int)Math.round(Math.random()*2+1);
+            switch (randomPhrase) {
+                case 1:
+                    feedbackLabel.setText("Stay on target commander.");
+                    break;
+                case 2:
+                    feedbackLabel.setText("Blown away in the strong winds?");
+                    break;
+                case 3:
+                    feedbackLabel.setText("Red, green, white. How original!");
+                    break;
+                
+            }
         }
     }//GEN-LAST:event_confirmButtonThreeActionPerformed
 
@@ -390,6 +522,22 @@ public class MultiQuiz extends javax.swing.JFrame {
             questionDisplay = "Five";
             //test.setText(questionDisplay);
             questionOutputTextArea.setText(quFiveText);
+            
+            //randomized element
+            int randomPhrase;
+            randomPhrase = (int)Math.round(Math.random()*2+1);
+            switch (randomPhrase) {
+                case 1:
+                    feedbackLabel.setText("A true vexiologist in the making");
+                    break;
+                case 2:
+                    feedbackLabel.setText("Vonderbar!");
+                    break;
+                case 3:
+                    feedbackLabel.setText("Planted among the stars.");
+                    break;
+                
+            }
         }
         else {
             questionIncorrect = questionIncorrect + 1;
@@ -398,6 +546,22 @@ public class MultiQuiz extends javax.swing.JFrame {
             questionDisplay = "Five";
             //test.setText(questionDisplay);
             questionOutputTextArea.setText(quFiveText);
+            
+            //randomized element
+            int randomPhrase;
+            randomPhrase = (int)Math.round(Math.random()*2+1);
+            switch (randomPhrase) {
+                case 1:
+                    feedbackLabel.setText("Stay on target commander.");
+                    break;
+                case 2:
+                    feedbackLabel.setText("Blown away in the strong winds?");
+                    break;
+                case 3:
+                    feedbackLabel.setText("Red, green, white. How original!");
+                    break;
+                
+            }
         }
     }//GEN-LAST:event_confirmButtonFourActionPerformed
 
