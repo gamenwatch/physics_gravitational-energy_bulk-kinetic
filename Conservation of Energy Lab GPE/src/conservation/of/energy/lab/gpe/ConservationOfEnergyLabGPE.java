@@ -19,13 +19,18 @@ public class ConservationOfEnergyLabGPE {
     public static void main(String[] args) {
         // Variables
         Scanner keyedInput = new Scanner(System.in);
+    
+    ///////////////////GPE///////////////////////    
         
         //Input Mass
         double mass;
-        mass = keyedInput.nextDouble();
+        //System.out.println("What is mass?");
+        //mass = keyedInput.nextDouble();
+        mass = 0.100; // in the lab
         
         //Input Height
         double height;
+        System.out.println("What is the height?");
         height = keyedInput.nextDouble();
         
         //Calculation
@@ -33,7 +38,31 @@ public class ConservationOfEnergyLabGPE {
         gpe = mass*height*9.8;
         
         //Output
-        System.out.println(gpe);
+        System.out.println("GPE: "+gpe);
+    
+    //////////////////Bulk Kinetic//////////////////
+
+        //Mass
+        double mass2 = 0.596;//kg
+        
+        //Input Velocity
+        double velocity;
+        System.out.println("What is the velocity?");
+        velocity = keyedInput.nextDouble();
+        
+        //Calculation
+        double bke;
+        bke = 0.5*0.596*(velocity*velocity);
+        
+        //Output
+        System.out.println("BKE: "+bke);
+        
+    ///////////////////TOTAL ENERGY/////////////////////
+        
+        double total = bke + gpe;
+        System.out.println("\nTotal Energy: "+total);
+        
+        
         
     }
     
